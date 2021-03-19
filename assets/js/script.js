@@ -51,9 +51,11 @@ function newWeatherInfo(cityEntry) {
         
         // This captures the UV index and applies it to page
         // It also color codes the UV Index depending on how severe
-        var urlUVIndex = 'http://api.openweathermap.org/data/2.5/uvi?lat='+lat+'&lon='+lon+'&appid=bc4962a699e8e59af6dee3b499b23da2';
+        var urlUVIndex = 'https://api.openweathermap.org/data/2.5/onecall?lat='+lat+'{lat}&lon='+lon+'&appid=bc4962a699e8e59af6dee3b499b23da2';
         var lat = response.coord.lat;
+        lat = Integer.parseInt();
         var lon = response.coord.lon;
+        lon = Integer.parseInt();
         $.ajax({url: urlUVIndex, method: 'GET'}).then(function(response){
             var UVIndex = response.value;
             var UVITExt = 'UV Index: ' + UVIndex;
