@@ -21,63 +21,31 @@
             <form id='searchbar-section'>
                  <label>Search By City:</label>
                  <input type="text" id="searchBar" placeholder="City">
-                 <input id='button' type='submit' value='Search'>
+                 <button class='button' id='searchButton' type='button'>Search</button>
             </form>
              <div id='new-entries'></div>
-         </div>
+        </div>
      
-         <div id='right-section'>
-             <div class='card' id='weather-forecast'>
-                 <div class='card-body'>
-                     filler text goes here
-                 </div>
-             </div>
+        <div id='right-section'>
+            <div class='card' id='weather-forecast'>
+                <div id='main-city-weather' class='card-body w-50 '>
+                    <div><img id='wicon' class='order-sm-2' src=''></div>
+                </div>
+            </div>
+     
+            <div id='five-day-cast'><strong>5-Day Weather Forecast:</strong></div>
+
+            <div class='col-md-8 clearfix'>
+                <div class='m-3'>
+                    <div id='five-day-entries' class='row '></div>
+                </div>
+            </div>
+        </div>
              
-             <div id='five-day-cast'><strong>5-Day Weather Forecast:</strong></div>
-     
-             <div class='card' id=first-day>
-                 <div class='card-body'>
-                     <p id='date'><span id='date-insert-1'></span></p>
-                     <p id='temperature'><span id='temp-insert-1'></span></p>
-                     <p id='humidity'><span id='humidity-1'></span></p>
-                 </div>
-             </div>
-     
-             <div class='card' id=second-day>
-                 <div class='card-body'>
-                     <p id='date'><span id='date-insert-2'></span></p>
-                     <p id='temperature'><span id='temp-insert-2'></span></p>
-                     <p id='humidity'><span id='humidity-2'></span></p>
-                 </div>
-             </div>
-     
-             <div class='card' id=third-day>
-                 <div class='card-body'>
-                     <p id='date'><span id='date-insert-3'></span></p>
-                     <p id='temperature'><span id='temp-insert-3'></span></p>
-                     <p id='humidity'><span id='humidity-3'></span></p>
-                 </div>
-             </div>
-     
-             <div class='card' id=fourth-day>
-                 <div class='card-body'>
-                     <p id='date'><span id='date-insert-4'></span></p>
-                     <p id='temperature'><span id='temp-insert-4'></span></p>
-                     <p id='humidity'><span id='humidity-4'></span></p>
-                 </div>
-             </div>
-     
-             <div class='card' id=fifth-day>
-                 <div class='card-body'>
-                     <p id='date'><span id='date-insert-5'></span></p>
-                     <p id='temperature'><span id='temp-insert-5'></span></p>
-                     <p id='humidity'><span id='humidity-5'></span></p>
-                 </div>
-             </div>
-         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
     <script src='./assets/js/script.js'></script>
   </body>
