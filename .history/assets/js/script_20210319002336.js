@@ -12,7 +12,7 @@ var lsIndex = 0;
 $(document).ready(function() {
     $('#searchButton').on('click', function(event) {
         var citySearch = $('#searchBar').val();
-        // console.log(citySearch);
+        console.log(citySearch);
         // for (var x = 0; x < localStorage.length; x++) {
         //     var oldCityEntry = localStorage.getItem(x);
         //     console.log(oldCityEntry)
