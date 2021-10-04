@@ -1,6 +1,6 @@
 # Weather-Dashboard
 
-![](https://github.com/seddboi/Fitness-Tracker/blob/main/public/gif/Fitness%20Tracker.gif)
+![](https://github.com/seddboi/Weather-Dashboard/blob/main/gif/Weather%20Dashboard.gif)
 
 # Introduction
 Welcome to Weathered!
