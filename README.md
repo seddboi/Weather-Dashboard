@@ -20,7 +20,7 @@ This application has a few simple steps:
 1. Simply, load the site on any web browser (IE may have limited front-end support :( )
 2. Enjoy!
 
-3. I am currently working on service worker for downloadable offline features!
+3. ***************** I am currently working on service worker for downloadable offline features!
 
 Live Link: https://seddboi.github.io/Weather-Dashboard/
 
